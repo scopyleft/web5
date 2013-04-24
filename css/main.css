@@ -118,23 +118,35 @@ body {
     margin: 0 auto;
     width: 200px;
 }
-
+#home > nav > ul {
+    margin: 0 auto;
+    width: 719px;
+}
+#home > nav > ul > li {
+    display: inline-block;
+    width: 296px;
+    text-align: center;
+}
+#home > nav > ul > li:first-child,
+#home > nav > ul > li:last-child {
+    width: 207px;
+}
 #home > nav[role="navigation"] {
 }
 
-nav[role="navigation"] > ul {
+#home > nav[role="navigation"] > ul {
     padding: 0;
     margin: 0 auto;
     width: 621px;
 }
-nav[role="navigation"] > ul > li {
+#home > nav[role="navigation"] > ul > li {
     display: inline-block;
+    width: 100px;
     text-align: center;
 }
 
-nav[role="navigation"] > ul > li > a {
+#home > nav[role="navigation"] > ul > li > a {
     display: block;
-    width: 100px;
     font: 1.1rem "BebasNeueRegular";
     text-transform: uppercase;
     text-decoration: none;
