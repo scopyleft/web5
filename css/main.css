@@ -111,41 +111,70 @@ body {
 }
 
 #home {
-    background: orange;
+    background: #c30;
 }
 
 #home > header {
     margin: 0 auto;
     width: 200px;
 }
-#home > nav > ul {
+#home > header > h1 {
+    margin-top: 0;
+}
+#home > nav:not([role="navigation"]) > ul {
     margin: 0 auto;
     width: 719px;
 }
-#home > nav > ul > li {
+#home > nav:not([role="navigation"]) > ul > li {
     display: inline-block;
+    vertical-align: middle;
     width: 296px;
     text-align: center;
+    background: #fff;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 1.6rem;
+    transition: .1s ease-in;
+    position: relative;
+    left: 0;
 }
-#home > nav > ul > li:first-child,
-#home > nav > ul > li:last-child {
-    width: 207px;
-}
-#home > nav[role="navigation"] {
+#home > nav:not([role="navigation"]) > ul > li > a {
+    text-decoration: none;
+    color: #c30;
+    display: block;
 }
 
-#home > nav[role="navigation"] > ul {
+#home > nav:not([role="navigation"]) > ul > li:first-child,
+#home > nav:not([role="navigation"]) > ul > li:last-child {
+    width: 207px;
+    font-size: 1.2rem;
+}
+#home > nav:not([role="navigation"]) > ul > li:first-child:hover {
+    left: 10px;
+}
+#home > nav:not([role="navigation"]) > ul > li:last-child:hover {
+    left: -10px;
+}
+#home > nav:not([role="navigation"]) > ul > li:nth-child(2):hover {
+    transform: scale(1.05);
+}
+
+#home > nav[role="navigation"] a {
+    color: #fff;
+}
+
+nav[role="navigation"] > ul {
     padding: 0;
     margin: 0 auto;
     width: 621px;
 }
-#home > nav[role="navigation"] > ul > li {
+nav[role="navigation"] > ul > li {
     display: inline-block;
     width: 100px;
     text-align: center;
 }
 
-#home > nav[role="navigation"] > ul > li > a {
+nav[role="navigation"] > ul > li > a {
     display: block;
     font: 1.1rem "BebasNeueRegular";
     text-transform: uppercase;
