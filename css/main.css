@@ -111,7 +111,7 @@ body {
 }
 
 #home {
-    padding: 70px 0 0;
+    padding: 70px 0 85px;
     background: #c30;
 }
 
@@ -127,6 +127,7 @@ body {
     background:  url(../img/logo.png) 0 0 no-repeat;
 }
 #home > header > p {
+    margin: 20px 0 10px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.4rem;
@@ -138,11 +139,14 @@ body {
     font-size: 60%;
 }
 #home > header > a {
+    display: inline-block;
+    margin: 0 0 10px;
     color: #fff;
+    font: 1.5rem "BebasNeueRegular", Arial,sans-serif;
     text-decoration: none;
 }
 #home > nav:not([role="navigation"]) > ul {
-    margin: 0 auto;
+    margin: 0 auto 55px;
     width: 719px;
 }
 #home > nav:not([role="navigation"]) > ul > li {
@@ -154,7 +158,7 @@ body {
     padding: 5px 0;
     font-weight: bold;
     font-size: 1.6rem;
-    transition: .1s ease-in;
+    transition: .2s ease-in;
     position: relative;
     left: 0;
 }
@@ -166,14 +170,26 @@ body {
 
 #home > nav:not([role="navigation"]) > ul > li:first-child,
 #home > nav:not([role="navigation"]) > ul > li:last-child {
-    width: 207px;
+    padding: 10px 0 9px;
+    width: 223px;
     font-size: 1.2rem;
+    background: url(../img/left.svg) 0 0 no-repeat;
 }
 #home > nav:not([role="navigation"]) > ul > li:first-child:hover {
-    left: 10px;
+    left: -10px;
+}
+#home > nav:not([role="navigation"]) > ul > li:last-child {
+    margin: 0 0 0 -22px;
+    background: url(../img/right.svg) 0 0 no-repeat;
 }
 #home > nav:not([role="navigation"]) > ul > li:last-child:hover {
-    left: -10px;
+    left: 10px;
+}
+#home > nav:not([role="navigation"]) > ul > li:nth-child(2) {
+    padding: 16px 0;
+    margin: 0 0 0 -13px;
+    width: 299px;
+    background: url(../img/register.svg) -10px 0 no-repeat;
 }
 #home > nav:not([role="navigation"]) > ul > li:nth-child(2):hover {
     transform: scale(1.05);
