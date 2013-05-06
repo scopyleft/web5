@@ -225,10 +225,12 @@ nav[role="navigation"] > ul > li > a {
     padding: 0;
 }
 #main-header {
+    position: relative;
     background: #eee;
     height: 60px;
     padding: 20px 0 0 0;
     width: 100%;
+    z-index: 999999;
 }
 #main-header > div {
     float: left;
@@ -400,6 +402,10 @@ body > section > header > h2 {
 
 body > #register {
     display: none;
+}
+
+#map {
+    z-index: 1;
 }
 
 /* modal windows */
