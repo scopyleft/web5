@@ -1,6 +1,6 @@
 $(function() {
     // fixed header position
-    $('body > header').scrollToFixed();
+    $('#main-header').sticky();
 
     // scroll smooth
     $('[role=navigation] a').click(function(evt) {
@@ -25,7 +25,7 @@ $(function() {
             icon        : 'chat',
             closeOverlay: true,
             buttons     : {
-                button1 : {text: 'Close'}    
+                button1 : {text: 'Close'}
             }
         });
         evt.preventDefault();
