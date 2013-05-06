@@ -224,22 +224,22 @@ nav[role="navigation"] > ul > li > a {
     margin: 0;
     padding: 0;
 }
-
-body > header {
+#main-header {
     background: #eee;
     height: 60px;
     padding: 20px 0 0 0;
+    width: 100%;
 }
-body > header > div {
+#main-header > div {
     float: left;
 }
-body > header > div {
+#main-header > div {
     float: left;
 }
-body > header > nav {
+#main-header > nav {
     float: right;
 }
-body > header > .prime {
+#main-header > .prime {
     display: inline-block;
     float: right;
     margin: 60px -530px 0 0;
