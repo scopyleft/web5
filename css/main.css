@@ -217,6 +217,9 @@ body > header > .prime {
     text-decoration: none;
 }
 
+body > section {
+    clear: both;
+}
 body > section > header {
     width: 200px;
     margin: 40px auto 0 auto;
@@ -225,7 +228,7 @@ body > section > header > h1 {
     margin: 0 auto;
     padding: 0;
     color: #f03001;
-    font: 1.6rem "BebasNeueRegular";
+    font: 2rem "BebasNeueRegular";
     text-align: center;
 }
 body > section > header > h2 {
@@ -235,7 +238,7 @@ body > section > header > h2 {
     padding: 0;
     background: #fff;
     color: #f03001;
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 100;
     font-style: italic;
 }
@@ -273,6 +276,93 @@ body > section > header > h2 {
     background: #f9f9f9;
     border-top: 1px solid #ccc;
 }
+#schedule > .container {
+    display: block;
+    max-width: 960px;
+    margin: 0 auto;
+}
+#schedule > .container > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#schedule > .container li {
+    display: inline-block;
+    background: #fff;
+    width: 400px;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #999;
+}
+#schedule > .container {
+    margin-top: 60px;
+}
+#schedule > .container article h1 {
+    float: right;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin: 0;
+}
+#schedule > .container article h2 {
+    float: right;
+    font-size: .9rem;
+    margin: 0;
+    font-weight: bold;
+}
+#schedule > .container article figure {
+    float: left;
+    font-size: .9rem;
+    font-weight: bold;
+    margin: 0 10px 0;
+}
+#schedule > .container article p {
+    float: right;
+    margin: 0;
+    font-size: .8rem;
+    font-weight: 100;
+    font-style: italic;
+}
+#schedule > .container article a {
+    display: block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: #f03001;
+    text-indent: -200px;
+    margin-left: 300px;
+    overflow: hidden;
+}
+
+/*Desktop*/
+#schedule > .container li article header {
+    width: 100%;
+    text-align: center;
+}
+#schedule > .container li article header h1 {
+    display: none;
+}
+#schedule > .container li:first-child article header h1,
+#schedule > .container li:nth-child(2) article header h1 {
+    display: block;
+    width: 100%;
+    margin: -60px 0 0 0;
+    text-align: center;
+    color: #f03001;
+    font: 1.4rem "BebasNeueRegular";
+}
+#schedule > .container li article time {
+    display: none;
+}
+#schedule > .container li(:first-child) article time {
+    display: block;
+}
+
+/* venue */
+#map {
+    width: 100%;
+    height: 500px;
+}
+
 
 
 
