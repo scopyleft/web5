@@ -12,7 +12,25 @@ $(function() {
         });
         evt.preventDefault();
     });
+
+    // Gmaps
     loadMap();
+
+    // Modal windows
+    $('.prime').click(function(evt) {
+        $.browser = function(){}
+        $.fallr('show', {
+            content     : $('#register').html(),
+            width       : 560 + 100, // 100 = padding width
+            icon        : 'chat',
+            closeOverlay: true,
+            buttons     : {
+                button1 : {text: 'Close'}    
+            }
+        });
+        evt.preventDefault();
+        return false;
+    });
 });
 
 function loadMap() {
