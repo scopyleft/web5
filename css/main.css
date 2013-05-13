@@ -282,6 +282,7 @@ body > section > header > h2 {
 
 #speakers .container ul {
     margin: 0;
+    padding: 0;
     list-style: none;
 }
 #speakers .container > ul {
@@ -289,7 +290,7 @@ body > section > header > h2 {
     margin: 0 auto;
 }
 #speakers .container > ul > li > ul > li {
-    display: inline-block;
+    float: left;
     width: 180px;
     height: 150px;
     margin: 0 10px 10px 10px;
@@ -395,13 +396,42 @@ body > section > header > h2 {
 }
 
 /* venue */
+#venue {
+    position: relative;
+}
+#venue article {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    display: block;
+    width: 400px;
+    height: 300px;
+    background: #fff;
+    z-index: 2;
+    padding: 15px;
+    overflow: scroll;
+}
+#venue article h1 {
+    margin: 0;
+    padding: 0 0 5px 0;
+    color: #f03001;
+    font: 1.2rem "BebasNeueRegular",Arial,sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+#venue article h2 {
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: #f03001;
+    font-size: .9rem;
+}
+#venue article p, #venue article address, #venue article a {
+    margin: 0;
+    color: #999;
+    font-size: .9rem;
+}
 #map {
     width: 100%;
     height: 500px;
-}
-
-body > #register {
-    display: none;
 }
 
 #map {
