@@ -395,6 +395,11 @@ body > section > header > h2 {
     display: block;
 }
 
+/* register */
+body > #register {
+    display: none;
+}
+
 /* venue */
 #venue {
     position: relative;
