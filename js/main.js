@@ -1,4 +1,7 @@
 $(function() {
+    // hack for older jquery calls
+    $.browser = function() {};
+
     // fixed header position
     $('#main-header').sticky();
 
@@ -13,12 +16,34 @@ $(function() {
         evt.preventDefault();
     });
 
+    // Temporarly deactivated pages.
+    var disabledSections = [
+        '#schedule',
+        '#staff',
+        '#dresscode'
+        ];
+    $(disabledSections.join(',')).addClass('disabled');
+    var disabledClicks = [
+        '#home > nav:not([role]) li:first-child a'
+        ];
+        disabledSections.forEach(function(id) {
+            disabledClicks.push('nav a[href="'+id+'"]');
+        });
+    $(disabledClicks.join(',')).addClass('disabled');
+    $('.disabled').on('click', function(evt) {
+        console.log
+        $.fallr('show', {
+            content : '<h3>In progress</h3><p>We are working hard to get this very soon</p>'
+        });
+        evt.preventDefault();
+    });
+    // end Temp script
+
     // Gmaps
     loadMap();
 
     // Modal windows
     $('.prime').click(function(evt) {
-        $.browser = function(){}
         $.fallr('show', {
             content     : $('#register').html(),
             width       : 560 + 100, // 100 = padding width

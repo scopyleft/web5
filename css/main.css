@@ -230,7 +230,7 @@ nav[role="navigation"] > ul > li > a {
     height: 60px;
     padding: 20px 0 0 0;
     width: 100%;
-    z-index: 999999;
+    z-index: 90;
 }
 #main-header > div {
     float: left;
@@ -415,6 +415,16 @@ div#fallr-wrapper {
 }
 
 
+/* temporary disabled items */
+section.disabled {
+    display: none;
+}
+#home nav:not([role]) a.disabled {
+    color: #fcb;
+}
+body nav li a.disabled {
+    color: #999;
+}
 
 
 
