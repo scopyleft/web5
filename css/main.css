@@ -269,10 +269,11 @@ nav[role="navigation"] > ul > li > a {
 
 body > section {
     clear: both;
+    padding: 0 0 20px 0;
 }
 body > section > header {
     width: 200px;
-    margin: 40px auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 body > section > header > h1 {
     margin: 0 auto;
@@ -321,6 +322,19 @@ body > section > header > h2 {
     font-size: .8rem;
     font-style: italic;
     color: #999;
+}
+#speakers > .container > ul > li > ul > li {
+    position: relative;
+}
+#speakers > .container a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -150%;
+    overflow: hidden;
 }
 
 #schedule {
@@ -412,6 +426,54 @@ body > section > header > h2 {
 body > #register {
     display: none;
 }
+
+/* sponsors */
+#sponsors .container > h2 {
+    text-align: center;
+    font-family: 'BebasNeueRegular';
+    color: #f03001;
+    font-size: 1.1em;
+    margin-top: 40px;
+}
+#sponsors .container > ul {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+#sponsors .container > ul > li {
+    display: inline-block;
+    width: 100px;
+    margin: 0 20px;
+}
+#sponsors .container > .godfathers > li {
+    width: 120px;
+}
+#sponsors .container > .supporters > li {
+    width: 70px;
+}
+#sponsors .container > ul > li img {
+    width: 100%;
+}
+#sponsors .prime {
+    display: block;
+    width: 400px;
+    height: 50px;
+    margin: 30px auto 10px auto;
+    padding: 15px 40px;
+    text-align: center;
+    font: normal 1.3rem 'BebasNeueRegular';
+}
+#sponsors .prime span {
+    display: block;
+    background: #fff;
+    color: #f03001;
+    width: 50%;
+    margin: 5px auto;
+    padding-top: 2px;
+    font: bold .8rem "Open Sans",​Arial,​sans-serif;
+}
+
+
 
 /* venue */
 #venue {
@@ -505,11 +567,11 @@ footer nav > ul > li {
 }
 
 footer .prime {
-    display: inline-block;
+    float: left;
+    display: block;
     font-size: 1em;
     padding: 10px 20px;
-    float: left;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 95px;
 }
 
 
