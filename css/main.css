@@ -540,6 +540,7 @@ footer {
     background: #eee;
     height: 90px;
     padding: 20px 0;
+    border-top: 1px solid #ccc;
 }
 
 footer > .wrapper {
@@ -558,8 +559,11 @@ footer nav > ul {
     padding: 0;
 }
 footer nav > ul > li > a {
+    display: block;
     color: #666;
-    font-weight: bold;
+    font: normal 1.2rem "BebasNeueRegular",Arial,sans-serif;
+    padding-top: 10px;
+
 }
 footer nav > ul > li {
     display: inline-block;
