@@ -11,7 +11,7 @@ casper.start('http://conf2013.web-5.org/en/web-5-speakers-en/', function() {
                 website: e.querySelectorAll('.hofPicLink > div > a:first-child')[0].getAttribute('href'),
                 twitter: e.querySelectorAll('.hofPicLink > div > a:last-child')[0].getAttribute('href'),
                 bio: [].map.call(e.querySelectorAll('.hofBio p'), function(p) {return p.innerHTML;}),
-                talk_title: e.nextSibling
+                summary: e.querySelectorAll('.hofBio p')[0].innerHTML.substr(0, 50)
             };
         });
     });

@@ -23,6 +23,7 @@
         <script src="./js/sticky.js"></script>
         <script type="text/javascript" src="./js/fallr.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+        <script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
         <script src="./js/main.js"></script>
     </head>
     <body>
@@ -91,86 +92,16 @@
                 <ul>
                     <li>
                         <ul>
+                            {{#speakers}}
                             <li>
                                 <figure>
-                                    <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                    <figcaption>Aymeric Faivre</figcaption>
+                                    <img src="{{img}}" height="100" width="100" />
+                                    <figcaption>{{name}}</figcaption>
                                 </figure>
-                                <p>Designer d'écureils sauvages</p>
+                                <p>{{summary}}</p>
                                 <a href="#schedule" title="View details">His talk</a>
                             </li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                        </ul>
-                        <ul>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
-                            <li><figure>
-                                <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                <figcaption>Aymeric Faivre</figcaption>
-                                <a href="#schedule">His talk</a>
-                            </figure></li>
+                            {{/speakers}}
                         </ul>
                     </li>
                 </ul>

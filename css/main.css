@@ -307,14 +307,15 @@ body > section > header > h2 {
     padding: 0;
     list-style: none;
     max-width: 860px;
-    overflow: auto;
 }
 #speakers .container > ul > li > ul > li {
+    position: relative;
     float: left;
     width: 180px;
-    height: 150px;
-    margin: 0 10px 10px 10px;
+    height: 142px;
+    margin: 0 10px 20px 10px;
     text-align: center;
+    overflow: hidden;
 }
 #speakers .container > ul > li > ul > li > figure > img {
     border-radius: 50px;

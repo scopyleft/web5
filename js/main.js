@@ -67,6 +67,17 @@ $(function() {
         evt.preventDefault();
         return false;
     });
+
+
+    // speakers generator
+    $.get('../data/speakers.json', function(speakers) {
+        console.log(speakers)
+        var context = {speakers: speakers},
+            container = $('#speakers .container > ul > li > ul'),
+            compiled = Hogan.compile(container.html()),
+            render = compiled.render(context);
+        container.html(render);
+    });
 });
 
 function loadMap() {
