@@ -43,11 +43,22 @@ $(function() {
     loadMap();
 
     // Modal windows
-    $('.prime').click(function(evt) {
+    $('#home .prime, #main-header .prime').click(function(evt) {
         $.fallr('show', {
             content     : $('#register').html(),
             width       : 560 + 100, // 100 = padding width
-            icon        : 'chat',
+            closeOverlay: true,
+            buttons     : {
+                button1 : {text: 'Close'}
+            }
+        });
+        evt.preventDefault();
+        return false;
+    });
+    $('[href="#support-content"]').click(function(evt) {
+        $.fallr('show', {
+            content     : $('#support-content').html(),
+            width       : 400 + 100, // 100 = padding width
             closeOverlay: true,
             buttons     : {
                 button1 : {text: 'Close'}
@@ -61,6 +72,7 @@ $(function() {
 function loadMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 14,
+        scrollwheel: false,  // scroll page
         center: new google.maps.LatLng(43.345155, 3.241053),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true
