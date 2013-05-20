@@ -112,7 +112,7 @@ body {
 
 .logo {
     width: 300px;
-    height: 200px;
+    height: 100px;
     margin: 0 auto;
     background:  url(../img/logo.png) 0 0 no-repeat;
     background-size: 70% auto;
@@ -486,6 +486,7 @@ body > #support-content {
 /* venue */
 #venue {
     position: relative;
+    display: inherit; /* fixed normalize */
 }
 #venue article {
     position: absolute;
