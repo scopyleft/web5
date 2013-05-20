@@ -43,7 +43,7 @@ $(function() {
     loadMap();
 
     // Modal windows
-    $('#home .prime, #main-header .prime').click(function(evt) {
+    $('.register').click(function(evt) {
         $.fallr('show', {
             content     : $('#register').html(),
             width       : 560 + 100, // 100 = padding width

@@ -277,7 +277,7 @@ nav[role="navigation"] > ul > li > a {
 }
 
 body > section {
-    padding: 50px 0 20px 0;
+    padding: 80px 0 0 0;
 }
 body > section > header {
     width: 200px;
@@ -303,13 +303,11 @@ body > section > header > h2 {
 }
 
 #speakers .container ul {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
-}
-#speakers .container > ul {
     max-width: 860px;
-    margin: 0 auto;
+    overflow: auto;
 }
 #speakers .container > ul > li > ul > li {
     float: left;
