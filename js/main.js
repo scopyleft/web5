@@ -86,7 +86,7 @@ $(function() {
 
 
     // speakers generator
-    $.get('../data/speakers.json', function(speakers) {
+    $.get('./data/speakers.json', function(speakers) {
         var context = {speakers: speakers},
             container = $('#speakers .container > ul > li > ul'),
             compiled = Hogan.compile(container.html()),
