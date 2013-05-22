@@ -42,7 +42,8 @@ $(function() {
     // Gmaps
     loadMap();
 
-    // Modal windows
+    /* Modal windows */
+    // register buttons
     $('.register').click(function(evt) {
         $.fallr('show', {
             content     : $('#register').html(),
@@ -55,6 +56,7 @@ $(function() {
         evt.preventDefault();
         return false;
     });
+    // support us
     $('[href="#support-content"]').click(function(evt) {
         $.fallr('show', {
             content     : $('#support-content').html(),
@@ -67,11 +69,24 @@ $(function() {
         evt.preventDefault();
         return false;
     });
+    // speaker details
+    $('#speakers').on('click', 'a.details', function(evt) {
+        $.fallr('show', {
+            content     : $(this).siblings('.body').html(),
+            width       : 400 + 100, // 100 = padding width
+            closeOverlay: true,
+            buttons     : {
+                button1 : {text: 'Close'}
+            }
+        });
+        console.log($(this))
+        evt.preventDefault();
+        return false;
+    });
 
 
     // speakers generator
     $.get('../data/speakers.json', function(speakers) {
-        console.log(speakers)
         var context = {speakers: speakers},
             container = $('#speakers .container > ul > li > ul'),
             compiled = Hogan.compile(container.html()),

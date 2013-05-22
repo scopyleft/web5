@@ -307,6 +307,7 @@ body > section > header > h2 {
     padding: 0;
     list-style: none;
     max-width: 860px;
+    min-height: 1150px;
 }
 #speakers .container > ul > li > ul > li {
     position: relative;
@@ -324,11 +325,14 @@ body > section > header > h2 {
     font-size: .9rem;
     color: #333;
 }
-#speakers .container > ul > li > ul > li > p {
+#speakers .container > ul > li > ul > li > .summary {
     margin: 0;
     font-size: .8rem;
     font-style: italic;
     color: #999;
+}
+#speakers .container > ul > li > ul > li > .body {
+    display: none;
 }
 #speakers > .container > ul > li > ul > li {
     position: relative;
