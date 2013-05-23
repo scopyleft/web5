@@ -106,7 +106,7 @@ function loadMap() {
     marker = new google.maps.Marker({
           position: new google.maps.LatLng(43.345155, 3.241053),
           map: map,
-          icon: "./img/marker.svg",
+          icon: "./img/marker-logo.png",
           title: 'Web5 Baby!'
       });
 }
