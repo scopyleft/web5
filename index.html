@@ -98,10 +98,12 @@
                                     <img src="{{img}}" height="100" width="100" />
                                     <figcaption>{{name}}</figcaption>
                                 </figure>
-                                <p class="summary">{{summary}}</p>
+                                <p class="summary">{{title}}</p>
                                 <a href="#speakers" title="View details" class="details">His talk</a>
-                                <p class="body">This is the body<br/>
-                                    this text is so great!!!</p>
+                                <div class="body">
+                                    <h3>{{title}}</h3>
+                                    <p>{{body}}</p>
+                                </div>
                             </li>
                             {{/speakers}}
                         </ul>
