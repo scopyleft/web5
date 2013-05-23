@@ -4,18 +4,30 @@ var casper = require('casper').create({logLevel: 'debug', verbose: false}),
 casper.start('http://conf2013.web-5.org/en/conference-schedule/', function() {
     schedules = this.evaluate(function() {
         var schedules = document.querySelectorAll('.schedule .track > ul > li'),
-            tag;
+            tag, obj;
         return Array.prototype.map.call(schedules, function(e) {
-            return {
-                day: e.querySelectorAll('time')[0].getAttribute('datetime').split(' ')[0],
-                time: e.querySelectorAll('time')[0].innerHTML.split(' – '),
+            obj = {
+                day: e.querySelector('time').getAttribute('datetime').split(' ')[0],
+                time: e.querySelector('time').innerHTML.split(' – '),
                 img: (function(e) {
-                    tag = e.querySelectorAll('div > a > img');
-                    if(tag.length > 0)
-                        return tag[0].getAttribute('src');
+                    tag = e.querySelector('div > a > img');
+                    if(tag)
+                        return tag.getAttribute('src');
                 })(e),
-                type: 'talk'
+                room: e.parentNode.parentNode.querySelector('.breakTime').innerText,
+                type: (function(e) {
+                    breaktime = e.querySelector('.breakTime');
+                    if(breaktime) {
+                        if(breaktime.innerText.indexOf('LUNCH') > 0)
+                            return 'lunch';
+                        else
+                            return 'break';
+                    } else {
+                        return 'talk';
+                    }
+                })(e),
             };
+            return obj;
         });
     });
 });

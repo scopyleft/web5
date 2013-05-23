@@ -1,0 +1,230 @@
+[{
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/andrzejmazur-150x150.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["09:30", "10:15"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/corinne_fabrice-150x100.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["10:20", "11:05"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["11:05", "11:25"],
+        "type": "break"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/raphael_goetter-150x150.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["11:25", "12:10"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["12:10", "14:00"],
+        "type": "lunch"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/cjolif-150x150.png",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["14:00", "14:45"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/PICT3928-146x150.png",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["14:50", "15:35"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["15:35", "15:55"],
+        "type": "break"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/patcito-150x150.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["15:55", "16:40"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/stephanie_walter-150x150.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["16:45", "17:30"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/julienP-150x150.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["09:30", "10:15"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/ocramius-150x150.jpeg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["10:20", "11:05"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "room": "Amphi Linus Torvalds",
+        "time": ["11:05", "11:25"],
+        "type": "break"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/frank_vdbrink-150x150.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["11:25", "12:10"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "room": "Amphi Linus Torvalds",
+        "time": ["12:10", "14:00"],
+        "type": "lunch"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/profile5-150x150.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["14:00", "14:45"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/david_pilato-tugdual_grall-150x100.png",
+        "room": "Amphi Linus Torvalds",
+        "time": ["14:50", "15:35"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "room": "Amphi Linus Torvalds",
+        "time": ["15:35", "15:55"],
+        "type": "break"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/alexandre_morgaut-150x150.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["15:55", "16:40"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-14",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/filipe_moura-150x150.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["16:45", "17:30"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/andrewbaker-150x150.png",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["09:30", "10:15"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/marco-150x150.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["10:20", "11:05"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["11:05", "11:25"],
+        "type": "break"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/tom_dye-150x150.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["11:25", "12:10"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["12:10", "14:00"],
+        "type": "lunch"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/arnout_kazemier-150x150.jpeg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["14:00", "14:45"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/liochan-web5-150x150.png",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["14:50", "15:35"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["15:35", "15:55"],
+        "type": "break"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/david-larlet-150x150.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["15:55", "16:40"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/mfaure-150x150.jpg",
+        "room": "Amphi Olympe de Gouges",
+        "time": ["16:45", "17:30"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/tugdual_grall-150x150.png",
+        "room": "Amphi Linus Torvalds",
+        "time": ["09:30", "10:15"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/lyle-150x150.png",
+        "room": "Amphi Linus Torvalds",
+        "time": ["10:20", "11:05"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "room": "Amphi Linus Torvalds",
+        "time": ["11:05", "11:25"],
+        "type": "break"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/morten-e1361551616681-150x150.png",
+        "room": "Amphi Linus Torvalds",
+        "time": ["11:25", "12:10"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "room": "Amphi Linus Torvalds",
+        "time": ["12:10", "14:00"],
+        "type": "lunch"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/bastian_hofmann-150x113.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["14:00", "14:45"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/ulrika_200px-150x150.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["14:50", "15:35"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "room": "Amphi Linus Torvalds",
+        "time": ["15:35", "15:55"],
+        "type": "break"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/martin_shwalbe-150x150.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["15:55", "16:40"],
+        "type": "talk"
+    }, {
+        "day": "2013-06-15",
+        "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/xcambar-150x150.jpg",
+        "room": "Amphi Linus Torvalds",
+        "time": ["16:45", "17:30"],
+        "type": "talk"
+    }
+]
