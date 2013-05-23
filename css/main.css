@@ -242,6 +242,9 @@ nav[role="navigation"] > ul > li > a {
     width: 100%;
     z-index: 90;
 }
+#main-header .logo {
+    background:  url(../img/logo-small.png) 0 0 no-repeat;
+}
 #main-header > .wrapper {
     width: 960px;
     margin: 0 auto;
@@ -562,6 +565,7 @@ footer > .wrapper {
     margin: auto;
 }
 footer .logo {
+    background:  url(../img/logo-small.png) 0 0 no-repeat;
     height: 100px;
     float: left;
 }
