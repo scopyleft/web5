@@ -120,7 +120,7 @@ body {
 }
 
 #home {
-    padding: 70px 0 85px;
+    padding: 70px 0 65px;
     background: #c30 url(../img/bg-header.jpg) 0 0 no-repeat;
 }
 
@@ -204,6 +204,7 @@ body {
 }
 
 #home > nav[role="navigation"] a {
+    padding: 40px 0 0;
     color: #fff;
 }
 
@@ -226,6 +227,27 @@ nav[role="navigation"] > ul > li > a {
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
+}
+nav[role="navigation"] li:first-child a {
+    background: url(../img/sunglasses.svg) center 0 no-repeat;
+}
+nav[role="navigation"] li:nth-child(2) a {
+    background: url(../img/mic.svg) center 0 no-repeat;
+}
+nav[role="navigation"] li:nth-child(3)  a {
+    background: url(../img/marker.svg) center 0 no-repeat;
+}
+nav[role="navigation"] li:nth-child(4)  a {
+    background: url(../img/slip.svg) center 0 no-repeat;
+}
+nav[role="navigation"] li:nth-child(5)  a {
+    background: url(../img/heart.svg) center 0 no-repeat;
+}
+nav[role="navigation"] li:last-child a {
+    background: url(../img/tshirt.png) center 0 no-repeat;
+}
+.sticky-wrapper nav[role="navigation"] li a path {
+    fill: black;
 }
 
 .logo > * {
