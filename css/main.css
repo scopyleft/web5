@@ -1,3 +1,4 @@
+
 /*
  * HTML5 Boilerplate
  *
@@ -120,7 +121,7 @@ body {
 
 #home {
     padding: 70px 0 85px;
-    background: #c30;
+    background: #c30 url(../img/bg-header.jpg) 0 0 no-repeat;
 }
 
 #home > header {
