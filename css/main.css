@@ -303,9 +303,6 @@ nav[role="navigation"] li:last-child a {
 }
 .register {
     display: inline-block;
-    width: 156px;
-    height: 41px;
-    background: url(../img/bg-register-btn.png) 0 0 no-repeat;
     font-size: .7rem;
     font-weight: bold;
     text-align: center;
@@ -317,6 +314,9 @@ nav[role="navigation"] li:last-child a {
     float: right;
     margin: 60px -530px 0 0;
     padding: 10px 0;
+    width: 156px;
+    height: 41px;
+    background: url(../img/bg-register-btn.png) 0 0 no-repeat;
 }
 #home a[href="#register"].register {
     display: inline;
@@ -648,8 +648,11 @@ footer .register {
     float: left;
     display: block;
     font-size: 1em;
-    padding: 10px 20px;
-    margin: 0 0 0 95px;
+    padding: 10px 0;
+    margin: 0 0 0 70px;
+    width: 224px;
+    text-align: center;
+    background: url(../img/bg-register-footer.png) 0 0 no-repeat;
 }
 
 
