@@ -155,6 +155,7 @@ body {
 }
 #home > nav:not([role="navigation"]) > ul {
     margin: 0 auto 55px;
+    padding: 0;
     width: 719px;
 }
 #home > nav:not([role="navigation"]) > ul > li {
@@ -172,7 +173,7 @@ body {
 }
 #home > nav:not([role="navigation"]) > ul > li > a {
     text-decoration: none;
-    color: #c30;
+    color: #FC441A;
     display: block;
 }
 
@@ -399,7 +400,7 @@ body > section > header > h2 {
 }
 
 #schedule {
-    background: #f9f9f9;
+    background: #F7F7F7;
     border-top: 1px solid #ccc;
 }
 #schedule > .container {
@@ -491,6 +492,39 @@ body > section > header > h2 {
     display: block;
 }
 
+/*dresscode*/
+#dresscode {
+    padding: 50px 0 0;
+    height: 685px;
+    background: #F7F7F7 url(../img/dresscode.jpg) center 0 no-repeat;
+}
+#dresscode h1 {
+    padding: 55px 0 0;
+    background: url(../img/sprites.png) -135px -450px no-repeat;
+}
+#dresscode h2 {
+    background: none;
+    font-size: 1.1rem;
+}
+#dresscode .container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#dresscode .container a {
+    position: absolute;
+    right: 0;
+    margin:350px 0 0;
+    padding: 7px 30px;
+    background: url(../img/bg-get-tee.png) 0 0 no-repeat;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+#dresscode .container a:hover {
+    background: url(../img/bg-get-tee.png) 0 -46px no-repeat;
+}
 /* register */
 body > #register,
 body > #support-content {
@@ -498,6 +532,9 @@ body > #support-content {
 }
 
 /* sponsors */
+#sponsors {
+    background: #F7F7F7;
+}
 #sponsors .container > h2 {
     text-align: center;
     font-family: 'BebasNeueRegular';
@@ -549,6 +586,21 @@ body > #support-content {
 #venue {
     position: relative;
     display: inherit; /* fixed normalize */
+    background: #F7F7F7;
+}
+#venue header {
+    width: 100%;
+    position: absolute;
+    height: 201px;
+    background: url(../img/bg-map.png) center 0 no-repeat;
+    z-index: 3;
+}
+#venue header h1 {
+    width: 200px;
+    background: url(../img/sprites.png) -10px -397px no-repeat;
+}
+#venue .container {
+    position: relative;
 }
 #venue article {
     position: absolute;
@@ -636,18 +688,18 @@ footer nav > ul > li {
     text-align: center;
 }
 footer nav > ul > li:first-child {
-    background: url(../img/sprites.png) 0 -753px no-repeat;
+    background: url(../img/sprites.png) 5px -753px no-repeat;
 }
 footer nav > ul > li:nth-child(2) {
-    background: url(../img/sprites.png) -100px -753px no-repeat;
+    background: url(../img/sprites.png) -95px -753px no-repeat;
 }
 footer nav > ul > li:nth-child(3) {
-    background: url(../img/sprites.png) -200px -753px no-repeat;
+    background: url(../img/sprites.png) -196px -753px no-repeat;
 }
 footer nav > ul > li > a {
     display: block;
     height: 76px;
-    width: 52px;
+    width: 60px;
     color: #666;
     font: normal 1rem "BebasNeueRegular",Arial,sans-serif;
     text-decoration: none;
