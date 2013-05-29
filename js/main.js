@@ -18,7 +18,7 @@ $(function() {
 
     // Temporarly deactivated pages.
     var disabledSections = [
-        '#schedule',
+        //'#schedule',
         '#staff',
         '#dresscode'
         ];
@@ -89,6 +89,14 @@ $(function() {
     $.get('./data/speakers.json', function(speakers) {
         var context = {speakers: speakers},
             container = $('#speakers .container > ul > li > ul'),
+            compiled = Hogan.compile(container.html()),
+            render = compiled.render(context);
+        container.html(render);
+    });
+    // schedule generator
+    $.get('./data/schedule.json', function(schedules) {
+        var context = {schedules: schedules},
+            container = $('#schedule .container > ul'),
             compiled = Hogan.compile(container.html()),
             render = compiled.render(context);
         container.html(render);
