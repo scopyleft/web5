@@ -229,22 +229,22 @@ nav[role="navigation"] > ul > li > a {
     color: #000;
 }
 nav[role="navigation"] li:first-child a {
-    background: url(../img/sunglasses.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) 25px 12px no-repeat;
 }
 nav[role="navigation"] li:nth-child(2) a {
-    background: url(../img/mic.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) -60px 0 no-repeat;
 }
 nav[role="navigation"] li:nth-child(3)  a {
-    background: url(../img/marker.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) -160px 8px no-repeat;
 }
 nav[role="navigation"] li:nth-child(4)  a {
-    background: url(../img/slip.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) -270px 8px no-repeat;
 }
 nav[role="navigation"] li:nth-child(5)  a {
-    background: url(../img/heart.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) -365px 7px no-repeat;
 }
 nav[role="navigation"] li:last-child a {
-    background: url(../img/tshirt.png) center 0 no-repeat;
+    background: url(../img/sprites.png) -468px 8px no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li a {
     padding: 30px 0 0;
@@ -253,22 +253,22 @@ nav[role="navigation"] li:last-child a {
     background-repeat: no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:first-child a {
-    background-image: url(../img/sunglasses-black.svg);
+    background: url(../img/sprites.png) 0 0 no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:nth-child(2) a {
-    background-image: url(../img/mic-black.svg);
+    background: url(../img/sprites.png) 0 0 no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:nth-child(3)  a {
-    background-image: url(../img/marker-black.svg);
+    background: url(../img/sprites.png) 0 0 no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:nth-child(4)  a {
-    background-image: url(../img/slip-black.svg);
+    background: url(../img/sprites.png) 0 0 no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:nth-child(5)  a {
-    background-image: url(../img/heart-black.svg);
+    background: url(../img/sprites.png) 0 0 no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:last-child a {
-    background-image: url(../img/tshirt-black.png);
+    background: url(../img/sprites.png) 0 0 no-repeat;
 }
 
 .logo > * {
