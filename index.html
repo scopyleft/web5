@@ -24,6 +24,7 @@
         <script type="text/javascript" src="./js/fallr.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
         <script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
+        <script src="./js/templayed.js"></script>
         <script src="./js/main.js"></script>
     </head>
     <body>
@@ -103,6 +104,8 @@
                                 <div class="body">
                                     <h3>{{title}}</h3>
                                     <p>{{body}}</p>
+                                    <p><a href="{{twitter}}" target="_blank">His twitter</a></p>
+                                    <p><a href="{{website}}" target="_blank">His website</a></p>
                                 </div>
                             </li>
                             {{/speakers}}
@@ -128,53 +131,15 @@
                             <section>
                                 <time><span>{{time[0]}}</span> <span>{{time[1]}}</span></time>
                                 <figure>
-                                    <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                    <figcaption>Aymeric Faivre</figcaption>
+                                    <img src="{{img}}" alt="{{speaker}}" />
                                 </figure>
-                                <h1>Buy more and agile method</h1>
-                                <h2>Aymeric Faivre</h2>
-                                <p>Dessinateur d'écureuils</p>
+                                <h1>{{ speaker }}</h1>
+                                <p>{{title}}</p>
                                 <a href="#" title="read details">details</a>
                             </section>
                         </article>
                     </li>
-                    {{/speakers}}
-                    <li>
-                        <article>
-                            <header>
-                                <h1>Amphi Olympe de Gouges</h1>
-                            </header>
-                            <section>
-                                <time><span>09:00</span> <span>10:00</span></time>
-                                <figure>
-                                    <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                    <figcaption>Aymeric Faivre</figcaption>
-                                </figure>
-                                <h1>Buy more and agile method</h1>
-                                <h2>Aymeric Faivre</h2>
-                                <p>Dessinateur d'écureuils</p>
-                                <a href="#" title="read details">details</a>
-                            </section>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header>
-                                <h1>Amphi Olympe de Gouges</h1>
-                            </header>
-                            <section>
-                                <time><span>09:00</span> <span>10:00</span></time>
-                                <figure>
-                                    <img src="http://m3.licdn.com/mpr/pub/image-PAc4ersDkqdkc0zvvamVvk78urxKQUrOO5mxvnAYuvpMImNBPAcxZ2PDuESoIn0XHvP1/aymeric-faivre.jpg" alt="Aymeric Faivre" />
-                                    <figcaption>Aymeric Faivre</figcaption>
-                                </figure>
-                                <h1>Buy more and agile method</h1>
-                                <h2>Aymeric Faivre</h2>
-                                <p>Dessinateur d'écureuils</p>
-                                <a href="#" title="read details">details</a>
-                            </section>
-                        </article>
-                    </li>
+                    {{/schedules}}
                 </ul>
             </section>
         </section>

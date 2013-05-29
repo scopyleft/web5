@@ -4,7 +4,7 @@ var casper = require('casper').create({logLevel: 'debug', verbose: false}),
 casper.start('http://conf2013.web-5.org/en/conference-schedule/', function() {
     schedules = this.evaluate(function() {
         var schedules = document.querySelectorAll('.schedule .track > ul > li'),
-            tag, obj;
+            tag, obj, content;
         return Array.prototype.map.call(schedules, function(e) {
             obj = {
                 day: e.querySelector('time').getAttribute('datetime').split(' ')[0],
@@ -15,6 +15,8 @@ casper.start('http://conf2013.web-5.org/en/conference-schedule/', function() {
                         return tag.getAttribute('src');
                 })(e),
                 room: e.parentNode.parentNode.querySelector('.breakTime').innerText,
+                speaker: (e.querySelector('.wp-caption-text') ? e.querySelector('.wp-caption-text').innerText.split(' – ')[0] : null),
+                title: (e.querySelector('.wp-caption-text') ? e.querySelector('.wp-caption-text').innerText.split(' – ')[1] : null),
                 type: (function(e) {
                     breaktime = e.querySelector('.breakTime');
                     if(breaktime) {
@@ -25,7 +27,7 @@ casper.start('http://conf2013.web-5.org/en/conference-schedule/', function() {
                     } else {
                         return 'talk';
                     }
-                })(e),
+                })(e)
             };
             return obj;
         });

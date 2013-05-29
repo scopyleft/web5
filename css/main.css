@@ -416,6 +416,7 @@ body > section > header > h2 {
     display: inline-block;
     background: #fff;
     width: 400px;
+    height: 120px;
     margin: 10px;
     padding: 10px 20px;
     color: #999;
@@ -428,6 +429,8 @@ body > section > header > h2 {
     font-size: 1.1rem;
     font-weight: normal;
     margin: 0;
+    width: 150px;
+    text-align: center;
 }
 #schedule > .container article h2 {
     float: right;
@@ -475,6 +478,11 @@ body > section > header > h2 {
     text-align: center;
     color: #f03001;
     font: 1.4rem "BebasNeueRegular";
+}
+#schedule > .container li article img {
+    border-radius: 80px;
+    height: 100px;
+    width: 100px;
 }
 #schedule > .container li article time {
     display: none;
