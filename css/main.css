@@ -490,6 +490,9 @@ body > #support-content {
 }
 
 /* sponsors */
+#sponsors {
+    background: #F7F7F7;
+}
 #sponsors .container > h2 {
     text-align: center;
     font-family: 'BebasNeueRegular';
@@ -628,18 +631,18 @@ footer nav > ul > li {
     text-align: center;
 }
 footer nav > ul > li:first-child {
-    background: url(../img/sprites.png) 0 -753px no-repeat;
+    background: url(../img/sprites.png) 5px -753px no-repeat;
 }
 footer nav > ul > li:nth-child(2) {
-    background: url(../img/sprites.png) -100px -753px no-repeat;
+    background: url(../img/sprites.png) -95px -753px no-repeat;
 }
 footer nav > ul > li:nth-child(3) {
-    background: url(../img/sprites.png) -200px -753px no-repeat;
+    background: url(../img/sprites.png) -196px -753px no-repeat;
 }
 footer nav > ul > li > a {
     display: block;
     height: 76px;
-    width: 52px;
+    width: 60px;
     color: #666;
     font: normal 1rem "BebasNeueRegular",Arial,sans-serif;
     text-decoration: none;
