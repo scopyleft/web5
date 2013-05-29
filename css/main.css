@@ -400,7 +400,7 @@ body > section > header > h2 {
 }
 
 #schedule {
-    background: #f9f9f9;
+    background: #F7F7F7;
     border-top: 1px solid #ccc;
 }
 #schedule > .container {
@@ -578,6 +578,21 @@ body > #support-content {
 #venue {
     position: relative;
     display: inherit; /* fixed normalize */
+    background: #F7F7F7;
+}
+#venue header {
+    width: 100%;
+    position: absolute;
+    height: 201px;
+    background: url(../img/bg-map.png) center 0 no-repeat;
+    z-index: 3;
+}
+#venue header h1 {
+    width: 200px;
+    background: url(../img/sprites.png) -10px -397px no-repeat;
+}
+#venue .container {
+    position: relative;
 }
 #venue article {
     position: absolute;
