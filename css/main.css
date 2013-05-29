@@ -485,8 +485,33 @@ body > section > header > h2 {
 
 /*dresscode*/
 #dresscode {
+    padding: 50px 0 0;
     height: 685px;
     background: #F7F7F7 url(../img/dresscode.jpg) center 0 no-repeat;
+}
+#dresscode h1 {
+    padding: 55px 0 0;
+    background: url(../img/sprites.png) -135px -450px no-repeat;
+}
+#dresscode h2 {
+    background: none;
+    font-size: 1.1rem;
+}
+#dresscode .container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#dresscode .container a {
+    position: absolute;
+    right: 0;
+    margin:350px 0 0;
+    padding: 7px 30px;
+    background: url(../img/bg-get-tee.png) 0 0 no-repeat;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
 }
 /* register */
 body > #register,
