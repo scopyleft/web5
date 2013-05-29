@@ -229,22 +229,22 @@ nav[role="navigation"] > ul > li > a {
     color: #000;
 }
 nav[role="navigation"] li:first-child a {
-    background: url(../img/sunglasses.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) 24px 12px no-repeat;
 }
 nav[role="navigation"] li:nth-child(2) a {
-    background: url(../img/mic.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) -60px 0 no-repeat;
 }
 nav[role="navigation"] li:nth-child(3)  a {
-    background: url(../img/marker.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) -160px 8px no-repeat;
 }
 nav[role="navigation"] li:nth-child(4)  a {
-    background: url(../img/slip.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) -270px 8px no-repeat;
 }
 nav[role="navigation"] li:nth-child(5)  a {
-    background: url(../img/heart.svg) center 0 no-repeat;
+    background: url(../img/sprites.png) -365px 7px no-repeat;
 }
 nav[role="navigation"] li:last-child a {
-    background: url(../img/tshirt.png) center 0 no-repeat;
+    background: url(../img/sprites.png) -468px 8px no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li a {
     padding: 30px 0 0;
@@ -253,22 +253,22 @@ nav[role="navigation"] li:last-child a {
     background-repeat: no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:first-child a {
-    background-image: url(../img/sunglasses-black.svg);
+    background: url(../img/sprites.png) 30px -90px no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:nth-child(2) a {
-    background-image: url(../img/mic-black.svg);
+    background: url(../img/sprites.png) -60px -100px no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:nth-child(3)  a {
-    background-image: url(../img/marker-black.svg);
+    background: url(../img/sprites.png) -157px -95px no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:nth-child(4)  a {
-    background-image: url(../img/slip-black.svg);
+    background: url(../img/sprites.png) -266px -96px no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:nth-child(5)  a {
-    background-image: url(../img/heart-black.svg);
+    background: url(../img/sprites.png) -363px -93px no-repeat;
 }
 .sticky-wrapper nav[role="navigation"] li:last-child a {
-    background-image: url(../img/tshirt-black.png);
+    background: url(../img/sprites.png) -463px -93px no-repeat;
 }
 
 .logo > * {
@@ -303,9 +303,9 @@ nav[role="navigation"] li:last-child a {
 }
 .register {
     display: inline-block;
-    background: #c30;
     font-size: .7rem;
     font-weight: bold;
+    text-align: center;
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
@@ -313,7 +313,10 @@ nav[role="navigation"] li:last-child a {
 #main-header .register {
     float: right;
     margin: 60px -530px 0 0;
-    padding: 5px 10px;
+    padding: 10px 0;
+    width: 156px;
+    height: 41px;
+    background: url(../img/bg-register-btn.png) 0 0 no-repeat;
 }
 #home a[href="#register"].register {
     display: inline;
@@ -619,24 +622,37 @@ footer nav > ul {
     margin: 0;
     padding: 0;
 }
-footer nav > ul > li > a {
-    display: block;
-    color: #666;
-    font: normal 1.2rem "BebasNeueRegular",Arial,sans-serif;
-    padding-top: 10px;
-
-}
 footer nav > ul > li {
     display: inline-block;
     margin: 0 10px;
+    text-align: center;
 }
-
+footer nav > ul > li:first-child {
+    background: url(../img/sprites.png) 0 -753px no-repeat;
+}
+footer nav > ul > li:nth-child(2) {
+    background: url(../img/sprites.png) -100px -753px no-repeat;
+}
+footer nav > ul > li:nth-child(3) {
+    background: url(../img/sprites.png) -200px -753px no-repeat;
+}
+footer nav > ul > li > a {
+    display: block;
+    height: 76px;
+    width: 52px;
+    color: #666;
+    font: normal 1rem "BebasNeueRegular",Arial,sans-serif;
+    text-decoration: none;
+}
 footer .register {
     float: left;
     display: block;
     font-size: 1em;
-    padding: 10px 20px;
-    margin: 0 0 0 95px;
+    padding: 10px 0;
+    margin: 0 0 0 70px;
+    width: 224px;
+    text-align: center;
+    background: url(../img/bg-register-footer.png) 0 0 no-repeat;
 }
 
 
