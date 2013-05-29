@@ -19,8 +19,8 @@ $(function() {
     // Temporarly deactivated pages.
     var disabledSections = [
         //'#schedule',
-        '#staff',
-        '#dresscode'
+        '#staff'
+        //'#dresscode'
         ];
     $(disabledSections.join(',')).addClass('disabled');
     var disabledClicks = [

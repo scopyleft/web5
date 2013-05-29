@@ -172,7 +172,7 @@ body {
 }
 #home > nav:not([role="navigation"]) > ul > li > a {
     text-decoration: none;
-    color: #c30;
+    color: #FC441A;
     display: block;
 }
 
@@ -483,6 +483,11 @@ body > section > header > h2 {
     display: block;
 }
 
+/*dresscode*/
+#dresscode {
+    height: 685px;
+    background: #F7F7F7 url(../img/dresscode.jpg) center 0 no-repeat;
+}
 /* register */
 body > #register,
 body > #support-content {
