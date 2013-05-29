@@ -514,6 +514,9 @@ body > section > header > h2 {
     color: #fff;
     text-decoration: none;
 }
+#dresscode .container a:hover {
+    background: url(../img/bg-get-tee.png) 0 -46px no-repeat;
+}
 /* register */
 body > #register,
 body > #support-content {
