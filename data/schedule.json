@@ -1,6 +1,9 @@
 [{
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/andrzejmazur-150x150.jpg",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Andrzej Mazur",
         "time": ["09:30", "10:15"],
@@ -9,6 +12,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/corinne_fabrice-150x100.jpg",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Corinne Krych & Fabrice Matrat",
         "time": ["10:20", "11:05"],
@@ -16,6 +22,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-14",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": false,
         "room": "Amphi Olympe de Gouges",
         "speaker": "",
         "time": ["11:05", "11:25"],
@@ -24,6 +33,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/raphael_goetter-150x150.jpg",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Raphaël Goetter",
         "time": ["11:25", "12:10"],
@@ -31,6 +43,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-14",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": false,
         "room": "Amphi Olympe de Gouges",
         "speaker": "",
         "time": ["12:10", "14:00"],
@@ -39,6 +54,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/cjolif-150x150.png",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Christophe Jolif",
         "time": ["14:00", "14:45"],
@@ -47,6 +65,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/PICT3928-146x150.png",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Philippe Sam-Long",
         "time": ["14:50", "15:35"],
@@ -54,6 +75,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-14",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": false,
         "room": "Amphi Olympe de Gouges",
         "speaker": "",
         "time": ["15:35", "15:55"],
@@ -62,6 +86,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/patcito-150x150.jpg",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Patrick Aljord",
         "time": ["15:55", "16:40"],
@@ -70,6 +97,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/stephanie_walter-150x150.jpg",
+        "is_alternative": false,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Stéphanie Walter",
         "time": ["16:45", "17:30"],
@@ -78,6 +108,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/julienP-150x150.jpg",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Julien Pauli",
         "time": ["09:30", "10:15"],
@@ -86,6 +119,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/ocramius-150x150.jpeg",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Marco Pivetta",
         "time": ["10:20", "11:05"],
@@ -93,6 +129,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-14",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": false,
         "room": "Amphi Linus Torvalds",
         "speaker": "",
         "time": ["11:05", "11:25"],
@@ -101,6 +140,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/frank_vdbrink-150x150.jpg",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Frank van den Brink",
         "time": ["11:25", "12:10"],
@@ -108,6 +150,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-14",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": false,
         "room": "Amphi Linus Torvalds",
         "speaker": "",
         "time": ["12:10", "14:00"],
@@ -116,6 +161,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/profile5-150x150.jpg",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Juozas Kaziukėnas",
         "time": ["14:00", "14:45"],
@@ -124,6 +172,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/david_pilato-tugdual_grall-150x100.png",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "David Pilato & Tugdual Grall",
         "time": ["14:50", "15:35"],
@@ -131,6 +182,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-14",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": false,
         "room": "Amphi Linus Torvalds",
         "speaker": "",
         "time": ["15:35", "15:55"],
@@ -139,6 +193,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/alexandre_morgaut-150x150.jpg",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Alexandre Morgaut",
         "time": ["15:55", "16:40"],
@@ -147,6 +204,9 @@
     }, {
         "day": "2013-06-14",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/filipe_moura-150x150.jpg",
+        "is_alternative": true,
+        "is_day2": false,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Filipe Moura",
         "time": ["16:45", "17:30"],
@@ -155,6 +215,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/andrewbaker-150x150.png",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Andrew J. Baker",
         "time": ["09:30", "10:15"],
@@ -163,6 +226,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/marco-150x150.jpg",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Marco Cedaro",
         "time": ["10:20", "11:05"],
@@ -170,6 +236,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-15",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": false,
         "room": "Amphi Olympe de Gouges",
         "speaker": "",
         "time": ["11:05", "11:25"],
@@ -178,6 +247,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/tom_dye-150x150.jpg",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Tom Dye",
         "time": ["11:25", "12:10"],
@@ -185,6 +257,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-15",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": false,
         "room": "Amphi Olympe de Gouges",
         "speaker": "",
         "time": ["12:10", "14:00"],
@@ -193,6 +268,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/arnout_kazemier-150x150.jpeg",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Arnout Kazemier",
         "time": ["14:00", "14:45"],
@@ -201,6 +279,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/liochan-web5-150x150.png",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Lionel Chanson",
         "time": ["14:50", "15:35"],
@@ -208,6 +289,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-15",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": false,
         "room": "Amphi Olympe de Gouges",
         "speaker": "",
         "time": ["15:35", "15:55"],
@@ -216,6 +300,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/david-larlet-150x150.jpg",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "David Larlet",
         "time": ["15:55", "16:40"],
@@ -224,6 +311,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/mfaure-150x150.jpg",
+        "is_alternative": false,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Olympe de Gouges",
         "speaker": "Matthieu Faure",
         "time": ["16:45", "17:30"],
@@ -232,6 +322,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/tugdual_grall-150x150.png",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Tugdual Grall",
         "time": ["09:30", "10:15"],
@@ -240,6 +333,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/lyle-150x150.png",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Lyle Troxell",
         "time": ["10:20", "11:05"],
@@ -247,6 +343,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-15",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": false,
         "room": "Amphi Linus Torvalds",
         "speaker": "",
         "time": ["11:05", "11:25"],
@@ -255,6 +354,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/morten-e1361551616681-150x150.png",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Morten Nielsen",
         "time": ["11:25", "12:10"],
@@ -262,6 +364,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-15",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": false,
         "room": "Amphi Linus Torvalds",
         "speaker": "",
         "time": ["12:10", "14:00"],
@@ -270,6 +375,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/ulrika_200px-150x150.jpg",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Ulrika Malmgren",
         "time": ["14:00", "14:45"],
@@ -278,6 +386,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/bastian_hofmann-150x113.jpg",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Bastian Hofmann",
         "time": ["14:50", "15:35"],
@@ -285,6 +396,9 @@
         "type": "talk"
     }, {
         "day": "2013-06-15",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": false,
         "room": "Amphi Linus Torvalds",
         "speaker": "",
         "time": ["15:35", "15:55"],
@@ -293,6 +407,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/03/martin_shwalbe-150x150.jpg",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Martin Shwalbe",
         "time": ["15:55", "16:40"],
@@ -301,6 +418,9 @@
     }, {
         "day": "2013-06-15",
         "img": "http://conf2013.web-5.org/wp-content/uploads/2013/02/xcambar-150x150.jpg",
+        "is_alternative": true,
+        "is_day2": true,
+        "is_talk": true,
         "room": "Amphi Linus Torvalds",
         "speaker": "Xavier Cambar",
         "time": ["16:45", "17:30"],

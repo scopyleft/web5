@@ -24,7 +24,6 @@
         <script type="text/javascript" src="./js/fallr.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
         <script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
-        <script src="./js/templayed.js"></script>
         <script src="./js/main.js"></script>
     </head>
     <body>
@@ -122,14 +121,18 @@
             </header>
             <section class="container">
                 <ul>
+                <li>
+                    <ul class="room1">
                     {{#schedules}}
-                    <li>
+                    {{^is_alternative}}
+                    <li class="{{type}} {{#is_day2}}day2{{/is_day2}}">
+                        {{#is_talk}}
                         <article>
                             <header>
                                 <h1>{{room}}</h1>
                             </header>
                             <section>
-                                <time><span>{{time[0]}}</span> <span>{{time[1]}}</span></time>
+                                <time><span>{{time.0}}</span></time>
                                 <figure>
                                     <img src="{{img}}" alt="{{speaker}}" />
                                 </figure>
@@ -138,9 +141,43 @@
                                 <a href="#" title="read details">details</a>
                             </section>
                         </article>
+                        {{/is_talk}}
+
+                        {{^is_talk}}
+                        {{time.0}} - {{time.1}}
+                        {{/is_talk}}
                     </li>
+                    {{/is_alternative}}
                     {{/schedules}}
+                        <li class="lunch">19:00</li>
+                    </ul>
+                    <ul class="room2">
+                    {{#schedules}}
+                    {{#is_alternative}}
+                    <li class="{{type}} {{#is_day2}}day2{{/is_day2}}">
+                        {{#is_talk}}
+                        <article>
+                            <header>
+                                <h1>{{room}}</h1>
+                            </header>
+                            <section>
+                                <time><span>{{time.0}}</span></time>
+                                <figure>
+                                    <img src="{{img}}" alt="{{speaker}}" />
+                                </figure>
+                                <h1>{{ speaker }}</h1>
+                                <p>{{title}}</p>
+                                <a href="#" title="read details">details</a>
+                            </section>
+                        </article>
+                        {{/is_talk}}
+                    </li>
+                    {{/is_alternative}}
+                    {{/schedules}}
+                    </ul>
+                    </li>
                 </ul>
+                <br class="clear" />
             </section>
         </section>
 

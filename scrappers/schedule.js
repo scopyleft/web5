@@ -15,8 +15,11 @@ casper.start('http://conf2013.web-5.org/en/conference-schedule/', function() {
                         return tag.getAttribute('src');
                 })(e),
                 room: e.parentNode.parentNode.querySelector('.breakTime').innerText,
+                is_alternative: (e.parentNode.parentNode.querySelector('.breakTime').innerText == "Amphi Linus Torvalds"),
+                is_day2: (e.querySelector('time').getAttribute('datetime').split(' ')[0] == '2013-06-15'),
                 speaker: (e.querySelector('.wp-caption-text') ? e.querySelector('.wp-caption-text').innerText.split(' – ')[0] : null),
                 title: (e.querySelector('.wp-caption-text') ? e.querySelector('.wp-caption-text').innerText.split(' – ')[1] : null),
+                is_talk: (!e.querySelector('.breakTime')),
                 type: (function(e) {
                     breaktime = e.querySelector('.breakTime');
                     if(breaktime) {
