@@ -455,6 +455,7 @@ body > section > header > h2 {
 #schedule > .container .room2 li.break,
 #schedule > .container .room2 li.lunch {
     visibility: hidden;
+    width: auto;
 }
 #schedule > .container li.talk {
     display: inline-block;
