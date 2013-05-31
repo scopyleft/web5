@@ -643,16 +643,19 @@ body > #support-content {
 #venue header {
     width: 100%;
     position: absolute;
-    height: 201px;
-    background: url(../img/bg-map.png) center 0 no-repeat;
+    height: 240px;
+    background: url(../img/bg-map.png) center bottom no-repeat;
     z-index: 3;
 }
 #venue header h1 {
-    width: 200px;
-    background: url(../img/sprites.png) -10px -397px no-repeat;
+    padding: 100px 0 0;
+    width: 150px;
+    height: auto;
+    background: url(../img/sprites.png) -43px -323px no-repeat;
 }
 #venue .container {
     position: relative;
+    margin: 50px 0 0;
 }
 #venue article {
     position: absolute;
