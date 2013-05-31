@@ -472,11 +472,11 @@ body > section > header > h2 {
 }
 #schedule > .container article h1 {
     float: right;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     font-weight: normal;
     margin: 0;
-    width: 150px;
-    text-align: center;
+    width: 195px;
 }
 #schedule > .container article h2 {
     float: right;
@@ -488,12 +488,12 @@ body > section > header > h2 {
     float: left;
     font-size: .9rem;
     font-weight: bold;
-    margin: 0 10px 0;
+    margin: 0 10px 0;s
 }
 #schedule > .container article p {
-    float: right;
+    float: left;
     width: 250px;
-    margin: 20px 0 0 0;
+    margin: -19px 0 0 177px;
     font-size: .8rem;
     font-weight: 100;
     font-style: italic;
