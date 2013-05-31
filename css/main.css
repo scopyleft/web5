@@ -438,21 +438,36 @@ body > section > header > h2 {
 .clear {
     clear: both;
 }
+#schedule > .container #day2 {
+    clear: both;
+    padding-top: 50px;
+}
+#schedule > .container ul h3 {
+    width: 224px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #fff;
+    background: url(../img/bg-register-footer.png) 0 0 no-repeat;
+}
+#schedule > .container ul {
+    margin-top: 50px;
+}
 #schedule > .container > ul > li > ul.room1 {
     float: left;
 }
 #schedule > .container > ul > li > ul.room2 {
     float: right;
-    margin: 0 50px 0;
+    margin-right: 50px;
 }
 #schedule > .container li.break,
 #schedule > .container li.lunch {
     width: 935px;
     height: 88px;
-    vertical-align: middle;
     color: #999;
     font-size: 1.2rem;
-    font-weight: bold;
     padding: 20px 0 0 20px;
 }
 #schedule > .container li.break {
@@ -511,7 +526,25 @@ body > section > header > h2 {
     float: left;
     font-size: .9rem;
     font-weight: bold;
-    margin: 0 10px 0;s
+    margin: 0 10px 0;
+}
+#schedule > .container .room1 article time {
+    position: absolute;
+    right: -108px;
+    top: 30px;
+    width: 100px;
+    text-align: center;
+}
+#schedule > .container article time span {
+    display: block;
+}
+#schedule > .container article time span:first-child {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+#schedule > .container .room2 article time {
+    display: none;
 }
 #schedule > .container article p {
     float: left;
@@ -540,14 +573,10 @@ body > section > header > h2 {
     width: 100%;
     text-align: center;
 }
-#schedule > .container li li:nth-child(11) {
-    margin-top: 100px;
-}
 #schedule > .container li li article header h1 {
     display: none;
 }
-#schedule > .container li li:first-child article header h1,
-#schedule > .container li li:nth-child(11) article header h1 {
+#schedule > .container li li:first-child article header h1 {
     display: block;
     width: 100%;
     margin: -60px 0 0 0;
@@ -559,14 +588,6 @@ body > section > header > h2 {
     border-radius: 80px;
     height: 100px;
     width: 100px;
-}
-#schedule > .container li article time {
-    display: inline-block;
-    margin: 0 0 5px;
-    font-weight: bold;
-}
-#schedule > .container li(:first-child) article time {
-    display: block;
 }
 
 /*dresscode*/

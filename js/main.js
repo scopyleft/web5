@@ -100,6 +100,8 @@ $(function() {
             compiled = Hogan.compile(container.html()),
             render = compiled.render(context);
         container.html(render);
+        $('#schedule ul li ul.room1 li.day2'). prependTo("#day2 .room1");
+        $('#schedule ul li ul.room2 li.day2'). prependTo("#day2 .room2");
     });
 });
 

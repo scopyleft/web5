@@ -121,58 +121,70 @@
             </header>
             <section class="container">
                 <ul>
-                <li>
-                    <ul class="room1">
-                    {{#schedules}}
-                    {{^is_alternative}}
-                    <li class="{{type}} {{#is_day2}}day2{{/is_day2}}">
-                        {{#is_talk}}
-                        <article>
-                            <header>
-                                <h1>{{room}}</h1>
-                            </header>
-                            <section>
-                                <figure>
-                                    <img src="{{img}}" alt="{{speaker}}" />
-                                </figure>
-                                <h1><time><span>{{time.0}}</span></time><br />{{title}}</h1>
-                                <p>{{ speaker }}</p>
-                                <a href="#" title="read details">details</a>
-                            </section>
-                        </article>
-                        {{/is_talk}}
+                    <li id="day1">
+                        <h3>14 June</h3>
+                        <ul class="room1">
+                            {{#schedules}}
+                            {{^is_alternative}}
+                            <li class="{{type}} {{^is_day2}}day1{{/is_day2}}{{#is_day2}}day2{{/is_day2}}">
+                                {{#is_talk}}
+                                <article>
+                                    <header>
+                                        <h1>{{room}}</h1>
+                                    </header>
+                                    <section>
+                                        <figure>
+                                            <img src="{{img}}" alt="{{speaker}}" />
+                                        </figure>
+                                        <h1>{{title}}</h1>
+                                        <time><span>{{time.0}}</span> <span>{{time.1}}</span></time>
+                                        <p>{{ speaker }}</p>
+                                        <a href="#" title="read details">details</a>
+                                    </section>
+                                </article>
+                                {{/is_talk}}
 
-                        {{^is_talk}}
-                        {{time.0}} - {{time.1}}
-                        {{/is_talk}}
+                                {{^is_talk}}
+                                {{time.0}} - {{time.1}}
+                                {{/is_talk}}
+                            </li>
+                            {{/is_alternative}}
+                            {{/schedules}}
+                                <li class="lunch">19:00</li>
+                            </ul>
+                            <ul class="room2">
+                            {{#schedules}}
+                            {{#is_alternative}}
+                            <li class="{{type}} {{#is_day2}}day2{{/is_day2}}">
+                                {{#is_talk}}
+                                <article>
+                                    <header>
+                                        <h1>{{room}}</h1>
+                                    </header>
+                                    <section>
+                                        <figure>
+                                            <img src="{{img}}" alt="{{speaker}}" />
+                                        </figure>
+                                        <h1>{{title}}</h1>
+                                        <time><span>{{time.0}}</span> <span>{{time.1}}</span></time>
+                                        <p>{{ speaker }}</p>
+                                        <a href="#" title="read details">details</a>
+                                    </section>
+                                </article>
+                                {{/is_talk}}
+                            </li>
+                            {{/is_alternative}}
+                            {{/schedules}}
+                        </ul>
                     </li>
-                    {{/is_alternative}}
-                    {{/schedules}}
-                        <li class="lunch">19:00</li>
-                    </ul>
-                    <ul class="room2">
-                    {{#schedules}}
-                    {{#is_alternative}}
-                    <li class="{{type}} {{#is_day2}}day2{{/is_day2}}">
-                        {{#is_talk}}
-                        <article>
-                            <header>
-                                <h1>{{room}}</h1>
-                            </header>
-                            <section>
-                                <figure>
-                                    <img src="{{img}}" alt="{{speaker}}" />
-                                </figure>
-                                <h1><time><span>{{time.0}}</span></time><br />{{title}}</h1>
-                                <p>{{ speaker }}</p>
-                                <a href="#" title="read details">details</a>
-                            </section>
-                        </article>
-                        {{/is_talk}}
-                    </li>
-                    {{/is_alternative}}
-                    {{/schedules}}
-                    </ul>
+                    <li id="day2">
+                        <h3>15 June</h3>
+                        <ul class="room1">
+                            <li class="lunch">19:00</li>
+                        </ul>
+                        <ul class="room2">
+                            <li class="lunch">19:00</li>
+                        </ul>
                     </li>
                 </ul>
                 <br class="clear" />
