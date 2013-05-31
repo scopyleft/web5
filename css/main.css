@@ -227,7 +227,10 @@ nav[role="navigation"] > ul > li > a {
     font: 1.1rem "BebasNeueRegular";
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: #6D6D6D;
+}
+nav[role="navigation"] > ul > li > a:hover {
+    color: #FC441A;
 }
 nav[role="navigation"] li:first-child a {
     background: url(../img/sprites.png) 24px 12px no-repeat;
@@ -337,7 +340,7 @@ body > section > header {
 body > section > header > h1 {
     margin: 0 auto;
     padding: 0;
-    color: #f03001;
+    color: #FC441A;
     font: 2rem "BebasNeueRegular";
     text-align: center;
 }
@@ -347,7 +350,7 @@ body > section > header > h2 {
     margin: 0 auto;
     padding: 0;
     /*background: #fff;*/
-    color: #f03001;
+    color: #FC441A;
     font-size: 1rem;
     font-weight: 100;
     font-style: italic;
@@ -593,7 +596,7 @@ body > #support-content {
 #sponsors .container > h2 {
     text-align: center;
     font-family: 'BebasNeueRegular';
-    color: #f03001;
+    color: #FC441A;
     font-size: 1.1em;
     margin-top: 40px;
 }
