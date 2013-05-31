@@ -459,6 +459,7 @@ body > section > header > h2 {
 }
 #schedule > .container li.talk {
     display: inline-block;
+    position: relative;
     background: #fff;
     width: 370px;
     height: 134px;
@@ -500,11 +501,13 @@ body > section > header > h2 {
 #schedule > .container article a {
     display: block;
     float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 44px;
     height: 44px;
     background: url(../img/btn-read-more.png) 0 0 no-repeat;
     text-indent: -200px;
-    margin-left: 300px;
     overflow: hidden;
     display: none;/*  TTEMEMMMMPP */
 }
