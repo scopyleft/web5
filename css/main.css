@@ -462,7 +462,7 @@ body > section > header > h2 {
     position: relative;
     background: #fff;
     width: 370px;
-    height: 134px;
+    /*height: 134px;*/
     margin: 10px;
     padding: 10px 20px;
     color: #999;
@@ -546,7 +546,7 @@ body > section > header > h2 {
 
 /*dresscode*/
 #dresscode {
-    padding: 50px 0 0;
+    padding: 50px 0 26px;
     height: 685px;
     background: #F7F7F7 url(../img/dresscode.jpg) center 0 no-repeat;
 }
