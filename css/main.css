@@ -346,7 +346,7 @@ body > section > header > h2 {
     width: auto;
     margin: 0 auto;
     padding: 0;
-    background: #fff;
+    /*background: #fff;*/
     color: #f03001;
     font-size: 1rem;
     font-weight: 100;
@@ -663,14 +663,14 @@ body > #support-content {
 #venue article {
     position: absolute;
     right: 10%;
-    bottom: 10%;
+    top: 25%;
     display: block;
     width: 400px;
-    height: 300px;
+    height: 160px;
     background: #fff;
     z-index: 2;
     padding: 15px;
-    overflow-y: scroll;
+   /* overflow-y: scroll;*/
 }
 #venue article h1 {
     margin: 0;
