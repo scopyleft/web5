@@ -404,8 +404,13 @@ body > section > header > h2 {
 }
 
 #schedule {
+    padding: 60px 0 0;
     background: #f9f9f9;
     border-top: 1px solid #ccc;
+}
+#schedule > header h1 {
+    padding: 70px 0 0; 
+    background: url(../img/sprites.png) 86px -249px no-repeat;
 }
 #schedule > .container {
     display: block;
