@@ -455,6 +455,7 @@ body > section > header > h2 {
 
 #schedule > .container li.lunch:last-child {
     background-image: url('../img/lunch2.png');
+    background-repeat: no-repeat;
     height: 120px;
 }
 #schedule > .container .room2 li.break,
