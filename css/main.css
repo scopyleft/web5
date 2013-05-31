@@ -473,7 +473,7 @@ body > section > header > h2 {
 #schedule > .container article h1 {
     float: right;
     font-size: 1rem;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     font-weight: normal;
     margin: 0;
     width: 195px;
@@ -538,7 +538,7 @@ body > section > header > h2 {
     width: 100px;
 }
 #schedule > .container li article time {
-    /*display: none;*/
+    font-weight: bold;
 }
 #schedule > .container li(:first-child) article time {
     display: block;
