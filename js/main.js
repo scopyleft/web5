@@ -109,12 +109,12 @@ function loadMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 14,
         scrollwheel: false,  // scroll page
-        center: new google.maps.LatLng(43.345155, 3.241053),
+        center: new google.maps.LatLng(43.34684, 3.222342),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true
       }),
     marker = new google.maps.Marker({
-          position: new google.maps.LatLng(43.345155, 3.241053),
+          position: new google.maps.LatLng(43.34684, 3.222342),
           map: map,
           icon: "./img/marker-logo.png",
           title: 'Web5 Baby!'
