@@ -538,6 +538,7 @@ body > section > header > h2 {
     width: 100px;
 }
 #schedule > .container li article time {
+    margin: 0 0 5px;
     font-weight: bold;
 }
 #schedule > .container li(:first-child) article time {
