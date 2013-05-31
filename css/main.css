@@ -405,7 +405,7 @@ body > section > header > h2 {
 
 #schedule {
     padding: 60px 0 0;
-    background: #f9f9f9;
+    background: #f7f7f7;
     border-top: 1px solid #ccc;
 }
 #schedule > header h1 {
@@ -448,6 +448,7 @@ body > section > header > h2 {
     padding: 20px 0 0 20px;
 }
 #schedule > .container li.break {
+    height: 78px;
     background-image: url('../img/break1.png');
 }
 #schedule > .container li.break:nth-child(8) {
