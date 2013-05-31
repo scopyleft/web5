@@ -342,6 +342,7 @@ body > section > header > h1 {
     padding: 0;
     color: #FC441A;
     font: 2rem "BebasNeueRegular";
+    line-height: 1.5rem;
     text-align: center;
 }
 body > section > header > h2 {
@@ -480,7 +481,7 @@ body > section > header > h2 {
     line-height: 1.1rem;
     font-weight: normal;
     margin: 0;
-    width: 195px;
+    width: 225px;
 }
 #schedule > .container article h2 {
     float: right;
@@ -497,7 +498,7 @@ body > section > header > h2 {
 #schedule > .container article p {
     float: left;
     width: 250px;
-    margin: -19px 0 0 177px;
+    margin: -19px 0 0 146px;
     font-size: .8rem;
     font-weight: 100;
     font-style: italic;
