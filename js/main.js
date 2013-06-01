@@ -21,19 +21,18 @@ $(function() {
         //'#schedule',
         '#staff'
         //'#dresscode'
-        ];
+    ];
     $(disabledSections.join(',')).addClass('disabled');
     var disabledClicks = [
-        '#home > nav:not([role]) li:first-child a'
-        ];
-        disabledSections.forEach(function(id) {
-            disabledClicks.push('nav a[href="'+id+'"]');
-        });
+            '#home > nav:not([role]) li:first-child a'
+    ];
+    disabledSections.forEach(function(id) {
+        disabledClicks.push('nav a[href="' + id + '"]');
+    });
     $(disabledClicks.join(',')).addClass('disabled');
     $('.disabled').on('click', function(evt) {
-        console.log
         $.fallr('show', {
-            content : '<h3>In progress</h3><p>We are working hard to get this very soon</p>'
+            content: '<h3>In progress</h3><p>We are working hard to get this very soon</p>'
         });
         evt.preventDefault();
     });
@@ -46,11 +45,13 @@ $(function() {
     // register buttons
     $('.register').click(function(evt) {
         $.fallr('show', {
-            content     : $('#register').html(),
-            width       : 560 + 100, // 100 = padding width
+            content: $('#register').html(),
+            width: 560 + 100, // 100 = padding width
             closeOverlay: true,
-            buttons     : {
-                button1 : {text: 'Close'}
+            buttons: {
+                button1: {
+                    text: 'Close'
+                }
             }
         });
         evt.preventDefault();
@@ -59,11 +60,13 @@ $(function() {
     // support us
     $('[href="#support-content"]').click(function(evt) {
         $.fallr('show', {
-            content     : $('#support-content').html(),
-            width       : 400 + 100, // 100 = padding width
+            content: $('#support-content').html(),
+            width: 400 + 100, // 100 = padding width
             closeOverlay: true,
-            buttons     : {
-                button1 : {text: 'Close'}
+            buttons: {
+                button1: {
+                    text: 'Close'
+                }
             }
         });
         evt.preventDefault();
@@ -72,22 +75,51 @@ $(function() {
     // speaker details
     $('#speakers').on('click', 'a.details', function(evt) {
         $.fallr('show', {
-            content     : $(this).siblings('.body').html(),
-            width       : 400 + 100, // 100 = padding width
+            content: $(this).siblings('.body').html(),
+            width: 400 + 100, // 100 = padding width
             closeOverlay: true,
-            buttons     : {
-                button1 : {text: 'Close'}
+            buttons: {
+                button1: {
+                    text: 'Close'
+                }
             }
         });
-        console.log($(this))
         evt.preventDefault();
         return false;
     });
 
+    // retrieve contents from speakers to schedule
+
+    function loadScheduleContent() {
+        var name, content;
+        $('#schedule section p').each(function(e) {
+            content = $('#speakers figcaption:contains("' + $(this).text() + '")').closest('li').find('.body').html();
+            $(this).siblings('.body').html(content);
+        });
+
+        // schedule details
+        $('.talk').on('click', 'a', function(evt) {
+            $.fallr('show', {
+                content: $(this).siblings('.body').html(),
+                width: 400 + 100, // 100 = padding width
+                closeOverlay: true,
+                buttons: {
+                    button1: {
+                        text: 'Close'
+                    }
+                }
+            });
+            evt.preventDefault();
+            return false;
+        });
+    }
+
 
     // speakers generator
     $.get('./data/speakers.json', function(speakers) {
-        var context = {speakers: speakers},
+        var context = {
+            speakers: speakers
+        },
             container = $('#speakers .container > ul > li > ul'),
             compiled = Hogan.compile(container.html()),
             render = compiled.render(context);
@@ -95,28 +127,31 @@ $(function() {
     });
     // schedule generator
     $.get('./data/schedule.json', function(schedules) {
-        var context = {schedules: schedules},
+        var context = {
+            schedules: schedules
+        },
             container = $('#schedule .container > ul'),
             compiled = Hogan.compile(container.html()),
             render = compiled.render(context);
         container.html(render);
-        $('#schedule ul li ul.room1 li.day2'). prependTo("#day2 .room1");
-        $('#schedule ul li ul.room2 li.day2'). prependTo("#day2 .room2");
+        $('#schedule ul li ul.room1 li.day2').prependTo("#day2 .room1");
+        $('#schedule ul li ul.room2 li.day2').prependTo("#day2 .room2");
+        loadScheduleContent();
     });
 });
 
 function loadMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
+    var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 14,
-        scrollwheel: false,  // scroll page
+        scrollwheel: false, // scroll page
         center: new google.maps.LatLng(43.34684, 3.222342),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true
-      }),
-    marker = new google.maps.Marker({
-          position: new google.maps.LatLng(43.34684, 3.222342),
-          map: map,
-          icon: "./img/marker-logo.png",
-          title: 'Web5 Baby!'
-      });
+    }),
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(43.34684, 3.222342),
+            map: map,
+            icon: "./img/marker-logo.png",
+            title: 'Web5 Baby!'
+        });
 }

@@ -565,7 +565,6 @@ body > section > header > h2 {
     background: url(../img/btn-read-more.png) 0 0 no-repeat;
     text-indent: -200px;
     overflow: hidden;
-    display: none;/*  TTEMEMMMMPP */
 }
 
 /*Desktop*/
@@ -588,6 +587,9 @@ body > section > header > h2 {
     border-radius: 80px;
     height: 100px;
     width: 100px;
+}
+#schedule > .container li article .body {
+    display: none;
 }
 
 /*dresscode*/
@@ -643,7 +645,6 @@ body > #support-content {
     color: #FC441A;
     font-size: 1.1em;
     margin-top: 40px;
-    background: 
 }
 #sponsors .container > ul {
     margin: 0 auto;
