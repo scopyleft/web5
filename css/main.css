@@ -633,12 +633,17 @@ body > #support-content {
 #sponsors {
     background: #F7F7F7;
 }
+#sponsors header h1 {
+    padding: 55px 0 0;
+    background: url("../img/sprites.png") no-repeat scroll -227px -548px transparent;
+}
 #sponsors .container > h2 {
     text-align: center;
     font-family: 'BebasNeueRegular';
     color: #FC441A;
     font-size: 1.1em;
     margin-top: 40px;
+    background: 
 }
 #sponsors .container > ul {
     margin: 0 auto;
@@ -652,31 +657,34 @@ body > #support-content {
 }
 #sponsors .container > .godfathers > li {
     width: 120px;
-}
+}/*
 #sponsors .container > .supporters > li {
     width: 70px;
-}
+}*/
 #sponsors .container > ul > li img {
     width: 100%;
 }
 #sponsors .register {
     display: block;
-    width: 400px;
-    height: 50px;
+    width: 722px;
+    height: 108px;
     margin: 30px auto 10px auto;
     padding: 15px 40px;
     text-align: center;
-    font: normal 1.3rem 'BebasNeueRegular';
+    font: normal 2.1rem 'BebasNeueRegular';
+    background: url(../img/bg-register.png) 0 0 no-repeat;
 }
 #sponsors .register span {
     display: block;
     background: #fff;
     color: #f03001;
-    width: 50%;
+    width: 326px;
+    height: 35px;
     margin: 5px auto;
-    padding-top: 2px;
-    font: bold .8rem "Open Sans",​Arial,​sans-serif;
-}
+    padding-top: 8px;   
+    font: bold 1.2rem "Open Sans",​Arial,​sans-serif;
+    background: url(../img/register-white.png) 0 0 no-repeat;
+}   
 
 
 
