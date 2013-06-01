@@ -3,11 +3,16 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Aymeric Faivre -- Flying sausage hunter -- @miho_fr
+    Erick Gardin -- angry dude at the front dev desk -- @newick
+    Vincent Agnano -- the rest of the stuff (not much) -- @vinyll
 
 # THANKS
 
-    <name>
+    @miho_fr for patience, carresses and cookies.
+    Our mums, because its cool to thank them.
+    The world, for still being there while we just screw it.
+    Us, because we're the bests.
 
 # TECHNOLOGY COLOPHON
 
