@@ -633,6 +633,10 @@ body > #support-content {
 #sponsors {
     background: #F7F7F7;
 }
+#sponsors header h1 {
+    padding: 55px 0 0;
+    background: url("../img/sprites.png") no-repeat scroll -227px -548px transparent;
+}
 #sponsors .container > h2 {
     text-align: center;
     font-family: 'BebasNeueRegular';
