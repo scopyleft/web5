@@ -108,6 +108,7 @@ textarea {
 }
 
 body {
+    min-width: 960px;
     font: 400 1rem "Open Sans", Arial, sans-serif;
 }
 
