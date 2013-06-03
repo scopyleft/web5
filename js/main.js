@@ -138,6 +138,10 @@ $(function() {
         $('#schedule ul li ul.room2 li.day2').prependTo("#day2 .room2");
         loadScheduleContent();
     });
+
+    $('.register').on('click', function(e) {
+        _gaq.push(['_trackEvent', 'registration', 'register', 'register button']);
+    });
 });
 
 function loadMap() {
