@@ -752,9 +752,12 @@ body > #support-content {
 #staff {
     position: relative;
     margin: 0 auto;
-    width: 1240px;
     height: 428px;
     background: #fff url(../img/teeStaff.jpg) 0 0 no-repeat;
+}
+#staff header {
+    position: absolute;
+    right: 35%;
 }
 #staff header h1 {
     padding: 70px 0 0;
@@ -762,7 +765,7 @@ body > #support-content {
 }
 #staff .container {
     position: absolute;
-    right: 290px;
+    right: 8%;
     top: 230px;
     text-align: center;
 }
