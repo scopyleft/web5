@@ -19,7 +19,7 @@ $(function() {
     // Temporarly deactivated pages.
     var disabledSections = [
         //'#schedule',
-        '#staff'
+        //'#staff'
         //'#dresscode'
     ];
     $(disabledSections.join(',')).addClass('disabled');
