@@ -1,5 +1,4 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
 
 # TEAM
 
@@ -13,8 +12,9 @@
     Our mums, because its cool to thank them.
     The world, for still being there while we just screw it.
     Us, because we're the bests.
+    @newick for fixing @vinyll's frontend craps.
 
-# TECHNOLOGY COLOPHON
+# TECHNOLOGY
 
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    HTML5, CSS3, Git, pizzas, beers, computers made by World Companies,
+    Normalize.css, jQuery, Modernizr, head, hands, keyboard, Alex Kidds
