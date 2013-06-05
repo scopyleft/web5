@@ -13,8 +13,11 @@
     The world, for still being there while we just screw it.
     Us, because we're the bests.
     @newick for fixing @vinyll's frontend craps.
+    @casperjs_org for being there when ghostbusters freak out (https://www.youtube.com/watch?v=SLdPeziDjFI).
 
 # TECHNOLOGY
 
     HTML5, CSS3, Git, pizzas, beers, computers made by World Companies,
-    Normalize.css, jQuery, Modernizr, head, hands, keyboard, Alex Kidds
+    Normalize.css, jQuery, Modernizr, head, hands, keyboard, Alex Kidds.
+    Plain text for those who'd say they can't read this freakin website (http://web-five.org/index.txt).
+    You're still required to be able to zoom out. If you can't, well, heh, just don't come to this conf.
