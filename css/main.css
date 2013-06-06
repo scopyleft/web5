@@ -291,6 +291,7 @@ nav[role="navigation"] li:last-child a {
     z-index: 90;
 }
 #main-header .logo {
+    display: inline-block;
     background:  url(../img/logo-small.png) 0 0 no-repeat;
 }
 #main-header > .wrapper {
@@ -753,6 +754,7 @@ body > #support-content {
     position: relative;
     margin: 0 auto;
     height: 428px;
+    width: 1115px;
     background: #fff url(../img/teeStaff.jpg) 0 0 no-repeat;
 }
 #staff header {
