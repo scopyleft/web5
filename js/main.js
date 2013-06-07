@@ -6,7 +6,7 @@ $(function() {
     $('#main-header').sticky();
 
     // scroll smooth
-    $('[role=navigation] a').click(function(evt) {
+    $('[role=navigation] a, a[href="#home"]').click(function(evt) {
         var href = $.attr(this, 'href');
         $('html,body').animate({
             scrollTop: $(href).offset().top

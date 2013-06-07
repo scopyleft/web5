@@ -488,9 +488,12 @@ body > section > header > h2 {
     height: 120px;
 }
 #schedule > .container li.lunch:last-child {
-    background-image: url('../img/lastBeer.png');
+    background-image: url('../img/party.png');
     background-repeat: no-repeat;
     height: 120px;
+}
+#schedule > .container #day2 li:last-child {
+    background-image: url('../img/lastBeer.png');
 }
 #schedule > .container .room2 li.break,
 #schedule > .container .room2 li.lunch {
