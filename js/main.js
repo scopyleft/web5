@@ -16,28 +16,6 @@ $(function() {
         evt.preventDefault();
     });
 
-    // Temporarly deactivated pages.
-    var disabledSections = [
-        //'#schedule',
-        //'#staff'
-        //'#dresscode'
-    ];
-    $(disabledSections.join(',')).addClass('disabled');
-    var disabledClicks = [
-            '#home > nav:not([role]) li:first-child a'
-    ];
-    disabledSections.forEach(function(id) {
-        disabledClicks.push('nav a[href="' + id + '"]');
-    });
-    $(disabledClicks.join(',')).addClass('disabled');
-    $('.disabled').on('click', function(evt) {
-        $.fallr('show', {
-            content: '<h3>In progress</h3><p>We are working hard to get this very soon</p>'
-        });
-        evt.preventDefault();
-    });
-    // end Temp script
-
     // Gmaps
     loadMap();
 
@@ -89,7 +67,6 @@ $(function() {
     });
 
     // retrieve contents from speakers to schedule
-
     function loadScheduleContent() {
         var name, content;
         $('#schedule section p').each(function(e) {
