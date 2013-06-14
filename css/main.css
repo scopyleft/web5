@@ -597,6 +597,19 @@ body > section > header > h2 {
     display: none;
 }
 
+
+/* day1 is over, optimise day2 */
+#schedule > .container #day2 {
+    padding-top: 100px;
+}
+
+
+/* these speakers can't do it */
+#schedule .room2 li.day2:nth-child(6),
+#schedule .room2 li.day2:nth-child(10) {
+    opacity: .25;
+}
+
 /*dresscode*/
 #dresscode {
     padding: 50px 0 26px;
