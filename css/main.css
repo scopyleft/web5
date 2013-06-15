@@ -605,8 +605,10 @@ body > section > header > h2 {
 
 
 /* these speakers can't do it */
-#schedule .room2 li.day2:nth-child(6),
-#schedule .room2 li.day2:nth-child(10) {
+#schedule .room2 li.day2:nth-child(6) {
+    opacity: .8;
+}
+#schedule .room1 li.day2:nth-child(10) {
     opacity: .25;
 }
 
